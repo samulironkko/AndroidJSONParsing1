@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\Samuli\\AndroidStudioProjects\\AndroidJSONParsing1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\single_list_item.xml",
+        "source": "C:\\Users\\Samuli\\AndroidStudioProjects\\AndroidJSONParsing1\\app\\src\\main\\res\\layout\\single_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Samuli\\AndroidStudioProjects\\AndroidJSONParsing1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item.xml",
+        "source": "C:\\Users\\Samuli\\AndroidStudioProjects\\AndroidJSONParsing1\\app\\src\\main\\res\\layout\\list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Samuli\\AndroidStudioProjects\\AndroidJSONParsing1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "C:\\Users\\Samuli\\AndroidStudioProjects\\AndroidJSONParsing1\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\temp5\\AndroidJSONParsing1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "C:\\temp5\\AndroidJSONParsing1\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\temp5\\AndroidJSONParsing1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\single_list_item.xml",
+        "source": "C:\\temp5\\AndroidJSONParsing1\\app\\src\\main\\res\\layout\\single_list_item.xml"
+    },
+    {
+        "merged": "C:\\temp5\\AndroidJSONParsing1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item.xml",
+        "source": "C:\\temp5\\AndroidJSONParsing1\\app\\src\\main\\res\\layout\\list_item.xml"
+    }
+]

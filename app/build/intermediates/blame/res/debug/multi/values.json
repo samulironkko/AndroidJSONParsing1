@@ -1,0 +1,88 @@
+[
+    {
+        "outputFile": "C:\\Users\\Samuli\\AndroidStudioProjects\\AndroidJSONParsing1\\app\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 55,
+                    "endOffset": 106
+                },
+                "from": {
+                    "file": "C:\\Users\\Samuli\\AndroidStudioProjects\\AndroidJSONParsing1\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 135,
+                        "endColumn": 55,
+                        "endOffset": 186
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 111,
+                    "endColumn": 74,
+                    "endOffset": 181
+                },
+                "from": {
+                    "file": "C:\\Users\\Samuli\\AndroidStudioProjects\\AndroidJSONParsing1\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 59,
+                        "endColumn": 74,
+                        "endOffset": 129
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\temp5\\AndroidJSONParsing1\\app\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 55,
+                    "endOffset": 106
+                },
+                "from": {
+                    "file": "C:\\temp5\\AndroidJSONParsing1\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 135,
+                        "endColumn": 55,
+                        "endOffset": 186
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 111,
+                    "endColumn": 74,
+                    "endOffset": 181
+                },
+                "from": {
+                    "file": "C:\\temp5\\AndroidJSONParsing1\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 59,
+                        "endColumn": 74,
+                        "endOffset": 129
+                    }
+                }
+            }
+        ]
+    }
+]
