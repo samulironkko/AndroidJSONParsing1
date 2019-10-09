@@ -38,7 +38,7 @@
             android:textColor="#5d5d5d"
             android:gravity="left"
             android:textStyle="bold"
-            android:text="Mobile: " >
+            android:text="IP: " >
         </TextView>
         <!-- Price Label -->
         <TextView

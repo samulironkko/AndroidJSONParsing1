@@ -17,25 +17,31 @@ import org.json.JSONObject;
 import android.os.AsyncTask;
 import android.util.Log;
 
-public class JSONParser extends AsyncTask<String, Void, JSONObject> {
+public class JSONParser extends Thread {
 
 	static InputStream is = null;
 	static JSONObject jObj = null;
 	static String json = "";
+	String url;
+
+	MyInterface callBack;
+
+	public interface MyInterface {
+		void returnContent(JSONObject jsonObject);
+	}
 
 	// constructor
-	public JSONParser() {
-
+	public JSONParser(MyInterface myInterface, String u) {
+		callBack = myInterface;
+		url = u;
 	}
 
 	@Override
-	protected JSONObject doInBackground(String... strings) {
-
-		// Making HTTP request
+	public void run() {
 		try {
 			// defaultHttpClient
 			DefaultHttpClient httpClient = new DefaultHttpClient();
-			HttpPost httpPost = new HttpPost(strings[0]);
+			HttpPost httpPost = new HttpPost(url);
 
 			HttpResponse httpResponse = httpClient.execute(httpPost);
 			HttpEntity httpEntity = httpResponse.getEntity();
@@ -71,8 +77,8 @@ public class JSONParser extends AsyncTask<String, Void, JSONObject> {
 		}
 
 		// return JSON String
-		return jObj;
-
+		callBack.returnContent(jObj);
+		//return jObj;
 	}
 
 	public JSONObject getJSONFromUrl(String url) {
